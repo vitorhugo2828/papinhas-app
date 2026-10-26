@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papinhas Mágicas - App de Vídeo-Aulas</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #fcf8f6;
+            color: #4a4a4a;
+            padding: 15px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0 10px;
+        }
+
+        header h1 {
+            color: #ff6b81;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            color: #7a7a7a;
+            font-size: 14px;
+        }
+
+        .category {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .category-title {
+            font-size: 18px;
+            color: #ff6b81;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .lesson-card {
+            background: #fff5f6;
+            border-radius: 12px;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ffe1e5;
+        }
+
+        .lesson-card:last-child {
+            margin-bottom: 0;
+        }
+
+        .lesson-title {
+            font-weight: 600;
+            font-size: 15px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #000;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #a0a0a0;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🍼 Papinhas Mágicas</h1>
+        <p>Aulas práticas para a introdução alimentar do seu bebê</p>
+    </header>
+
+    <!-- CATEGORIA 1 -->
+    <div class="category">
+        <h2 class="category-title">💪 1. Ganho de Peso e Engorda Saudável</h2>
+        
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 1: Papinha Nutricional para Ganho de Peso</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/kmJZRlt_bXY" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 2: Papinha de Carne Moída com Inhame</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/cL9Tuqgx0w4" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 3: Papinha de Carne com Mandioca, Batata Doce, Cenoura e Couve</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/rk0aDvrni0U" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 4: Papinha de Caldo de Feijão com Batata, Inhame e Carne Moída</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/HYl4ABWxc48" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 5: Papinha de Frango, Batata e Mandioca</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Ic4hsUocDcw" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- CATEGORIA 2 -->
+    <div class="category">
+        <h2 class="category-title">🛡️ 2. Nutrição e Imunidade do Dia a Dia</h2>
+        
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 1: Papinha de Abobrinha com Frango e Brócolis</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/CIzK20P4Gsk" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 2: Papinha de Frango com Chuchu</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/a0Z3u22kQc4" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 3: Papinha de Cenoura com Chuchu</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/vFq4YtGkqow" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 4: Papinha de Legumes com Fígado</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/zPzkUhgk1UQ" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 5: Papinha de Ovo com Mandioca</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/fMNVp-bkg9Q" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- CATEGORIA 3 -->
+    <div class="category">
+        <h2 class="category-title">🍌 3. Papinhas Doces e Frutas</h2>
+        
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 1: Papinha de Abacate com Banana</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/wm1lftJDUrQ" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 2: Papinha de Pêra</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/CiEIkMdzysw" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 3: Papinha de Abacate com Leite</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/LuztnwRsrZA" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 4: Papinha de Ameixa</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/amaUyjybxlg" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 5: Papinha de Manga</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/QZFVIpLq1LA" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- CATEGORIA 4 -->
+    <div class="category">
+        <h2 class="category-title">🥤 4. Sucos e Chás Naturais</h2>
+        
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 1: Suco de Laranja, Maçã e Limão</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/rvV7ZyNV9ro" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 2: Suco de Mamão com Água de Coco</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/4u8FkjnHAj0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 3: Papinha de Batata Doce com Espinafre</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/uxX6QOw-Cok" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 4: Papinha de Maçã com Canela</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/EQHOoH8EGfE" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-title">Aula 5: Papinha de Banana Amassada com Aveia</div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/MJS5QaOtZXM" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Papinhas Mágicas &copy; 2026 - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+  </html>
+  
